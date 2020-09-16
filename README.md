@@ -13,7 +13,6 @@ The script conducts four key steps:
 3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element corresponds to a unique genomic loci. 
 4) Merged repeats with a length less than 80bp are removed. 
 
-![Visual Depiction of Four Key Steps Conducted by RM_TRIPS](https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png)
 
 **USAGE**
 
@@ -32,3 +31,5 @@ This can be done by running the following bash command -
 ```
 awk '!/\*/' $file.out > noasterisk$file.out
 ```
+
+![Visual Depiction of Four Key Steps Conducted by RM_TRIPS](https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png)
