@@ -25,9 +25,9 @@ Necessary inputs include:
 
 *Note*
 
-You may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
+Before running RM_TRIP, you may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
 
-This can be done by running the following bash command beforehand -
+This can be done by running the following bash command -
 
 ```
 awk '!/\*/' $file.out > noasterisk$file.out
