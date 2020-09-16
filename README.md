@@ -13,7 +13,7 @@ The script conducts four key steps:
 3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element corresponds to a unique genomic loci. 
 4) Merged repeats with a length less than 80bp are removed. 
 
-![Visual Depiction of Four Key Steps Conducted by RM_TRIPS]https://user-images.githubusercontent.com/71394626/93364413-6d166100-f840-11ea-8741-500465abd2cb.png
+![Visual Depiction of Four Key Steps Conducted by RM_TRIPS](https://user-images.githubusercontent.com/71394626/93364413-6d166100-f840-11ea-8741-500465abd2cb.png)
 
 **USAGE**
 
