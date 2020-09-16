@@ -14,6 +14,7 @@ The script conducts four key analyses:
 4) Merged repeats with a length less than 80bp are removed. 
 
 **USAGE**
+
 The R script is compatible with any output file from RepeatMasker (.out) derived from Trinity based transcriptome sequences. 
 
 Necessary inputs include:
