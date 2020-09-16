@@ -22,3 +22,13 @@ The R script is compatible with any output file from RepeatMasker (.out) derived
 Necessary inputs include:
 1) The RepeatMasker.out file
 2) The RepeatMasker library used (e.g. RepBase or custom based repeat library) in .fasta format
+
+*Note*
+
+You may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
+
+This can be done by running the following bash command -
+
+'''
+awk '!/\*/' $file.out > noasterisk$file.out
+'''
