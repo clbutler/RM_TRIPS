@@ -13,6 +13,8 @@ The script conducts four key steps:
 3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element 
 4) Merged repeats with a length less than 80bp are removed. 
 
+(https://github.com/clbutler/RM_TRIPS/files/5233354/GITHUB_Graphical_Representation.pdf)
+
 **USAGE**
 
 The R script is compatible with any output file from RepeatMasker (.out) derived from Trinity based transcriptome sequences. 
