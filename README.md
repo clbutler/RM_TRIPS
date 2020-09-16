@@ -1,7 +1,7 @@
 # Tri-ROPS
 *Trinity RepeatMasker Output Parse Script*
 
-**Outline**
+**OUTLINE**
 
 This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better tranposable element annotation across whole transcriptome sequences.
 
@@ -13,7 +13,7 @@ The script conducts four key analyses:
 3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element 
 4) Merged repeats with a length less than 80bp are removed. 
 
-**Usage**
+**USAGE**
 The R script is compatible with any output file from RepeatMasker (.out) derived from Trinity based transcriptome sequences. 
 
 Necessary inputs include:
