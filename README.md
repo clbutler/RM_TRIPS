@@ -32,7 +32,7 @@ This can be done by running the following bash command -
 awk '!/\*/' $file.out > noasterisk$file.out
 ```
 
-![Visual Depiction of Four Key Steps Conducted by RM_TRIPS](src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png")
+![Visual Depiction of Four Key Steps Conducted by RM_TRIPS]<src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png">
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
