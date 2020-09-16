@@ -9,7 +9,7 @@ This R script aims to parse RepeatMasker.out files generated from de-novo Trinit
 The script conducts four key steps:
 
 1) Removes repetitive elements not classed as TEs (e.g. microsatellites, simple repeats & sRNAs).
-2) Merges elements found on the same transcript if they have the same name, oritentation and their combined sequence length is less than or equal to the corresponding reference sequence in RepBase.
+2) Merges elements found on the same transcript if they have the same name, orientation and their combined sequence length is less than or equal to the corresponding reference sequence in RepBase.
 3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element 
 4) Merged repeats with a length less than 80bp are removed. 
 
@@ -27,8 +27,8 @@ Necessary inputs include:
 
 You may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
 
-This can be done by running the following bash command -
+This can be done by running the following bash command beforehand -
 
-'''
+```
 awk '!/\*/' $file.out > noasterisk$file.out
-'''
+```
