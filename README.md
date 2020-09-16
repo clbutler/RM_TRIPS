@@ -1,5 +1,5 @@
-# Tri-ROPS
-*Trinity RepeatMasker Output Parse Script*
+# RM_TRIPS
+*RepeatMasker Trinity based Parse Script*
 
 **OUTLINE**
 
