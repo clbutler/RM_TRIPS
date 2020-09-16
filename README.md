@@ -18,5 +18,5 @@ The script conducts four key analyses:
 The R script is compatible with any output file from RepeatMasker (.out) derived from Trinity based transcriptome sequences. 
 
 Necessary inputs include:
-1) RepeatMasker.out file
-2) RepeatMasker library used (e.g. RepBase or custom based repeat library) in .fasta format
+1) The RepeatMasker.out file
+2) The RepeatMasker library used (e.g. RepBase or custom based repeat library) in .fasta format
