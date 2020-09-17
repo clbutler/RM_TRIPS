@@ -28,6 +28,20 @@ Necessary inputs include:
 
 The output is given as a .csv file and is written in the directory in which the .out file is found.
 
+| repeat_id        | Name of TE with the significant hit                            |   |
+|------------------|----------------------------------------------------------------|---|
+| qry_id           | Name of Trinity transcript with TE hit                         |   |
+| matching_repeat  | Is match complement (C) of the TE sequence?                    |   |
+| matching_class   | The transposon class in which the TE belongs to                |   |
+| reference_length | Sequence length of the TE as found in the reference library    |   |
+| merged_qrystart  | Start of TE hit found on the transcript                        |   |
+| merged_qryend    | End of TE hit found on transcript                              |   |
+| perc_div         | % of substitutions in matching region compared to the consesus |   |
+| perc_del         | % of bases opposite a gap in the query sequence                |   |
+| perc_insert      | % of bases opposite a gap in the repeat sequence               |   |
+| Gene             | Gene name, as derived from trinity transcript name             |   |
+| Isoform          | Isoform number, as derived from trinity transcript name        |   |
+
 *Note*
 
 Before running RM_TRIPS, you may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
