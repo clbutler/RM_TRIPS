@@ -1,7 +1,7 @@
 # RM_TRIPS
 *RepeatMasker Trinity based Parse Script*
 
-Author = Chrstopher L Butler
+Author = Christopher L Butler
 
 Email = c.butler@uea.ac.uk
 
