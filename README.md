@@ -3,7 +3,7 @@
 
 **OUTLINE**
 
-This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better transposable element (TE) annotation across whole transcriptome sequences.
+This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better transposable element (TE) annotation across whole transcriptome sequences. Output is given in .CSV format, in order for further analysis to be conducted at ease. 
 
 
 The script conducts four key steps:
