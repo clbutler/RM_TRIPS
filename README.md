@@ -1,5 +1,7 @@
 # RM_TRIPS
 *RepeatMasker Trinity based Parse Script*
+Author = Chrstopher L Butler
+Email = c.butler@uea.ac.uk
 
 **OUTLINE**
 
@@ -28,7 +30,7 @@ The output is given as a .csv file and is written in the directory in which the 
 
 Before running RM_TRIPS, you may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
 
-This can be done by running the following bash command -
+This can be achieved by running the following bash shell script -
 
 ```
 awk '!/\*/' $file.out > noasterisk$file.out
