@@ -22,6 +22,8 @@ Necessary inputs include:
 1) The RepeatMasker.out file
 2) The RepeatMasker library used (e.g. RepBase or custom based repeat library) in .fasta format
 
+The output is given as a .csv file and is written in the directory in which the .out file is found.
+
 *Note*
 
 Before running RM_TRIPS, you may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
