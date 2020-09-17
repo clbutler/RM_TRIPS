@@ -57,4 +57,4 @@ awk '!/\*/' $file.out > noasterisk$file.out
 ![Visual Depiction of Four Key Steps Conducted by RM_TRIPS]<src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png">
 
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png" width="200" height="400" />
