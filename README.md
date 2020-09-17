@@ -26,7 +26,7 @@ Necessary inputs include:
 1) The RepeatMasker.out file
 2) The RepeatMasker library used (e.g. RepBase or custom based repeat library) in .fasta format
 
-The output is given as a .csv file and is written in the directory in which the .out file is found.
+The output is given as a .csv file and is written in the same directory where the .out file is found.
 
 | Column Header    | Description                                                    |
 |------------------|----------------------------------------------------------------|
