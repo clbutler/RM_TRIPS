@@ -7,7 +7,7 @@ Email = c.butler@uea.ac.uk
 
 **OUTLINE**
 
-This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better transposable element (TE) annotation across whole transcriptome sequences. Output is given in .CSV format, in order for further analysis to be conducted at ease. 
+This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better transposable element (TE) annotation across whole transcriptome sequences. Output is given in .CSV format so further analyses can be conducted at ease. 
 
 
 The script conducts four key steps:
@@ -46,7 +46,7 @@ The output is given as a .csv file and is written in the same directory where th
 
 *Note*
 
-Before running RM_TRIPS, you may want to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
+Before running RM_TRIPS, you may wish to ensure that your RepeatMasker.out file only contains distinct repeats by removing repeats which have a lower scoring match whose domain partly includes the domain of the current match, as indicated by an asterisk * in the final output column. 
 
 This can be achieved by running the following bash shell script -
 
@@ -57,4 +57,4 @@ awk '!/\*/' $file.out > noasterisk$file.out
 ![Visual Depiction of Four Key Steps Conducted by RM_TRIPS]<src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png">
 
 
-<img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png"
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
