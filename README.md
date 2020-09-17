@@ -5,6 +5,11 @@ Author = Christopher L Butler
 
 Email = c.butler@uea.ac.uk
 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png" width="200" height="400" />
+</p>
+
 **OUTLINE**
 
 This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better transposable element (TE) annotation across whole transcriptome sequences. Output is given in .CSV format so further analyses can be conducted at ease. 
@@ -54,7 +59,6 @@ This can be achieved by running the following bash shell script -
 awk '!/\*/' $file.out > noasterisk$file.out
 ```
 
-![Visual Depiction of Four Key Steps Conducted by RM_TRIPS]<src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png">
 
 
-<img src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png" width="200" height="400" />
+
