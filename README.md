@@ -6,10 +6,6 @@ Author = Christopher L Butler
 Email = c.butler@uea.ac.uk
 
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png" width="200" height="400" />
-</p>
-
 **OUTLINE**
 
 This R script aims to parse RepeatMasker.out files generated from de-novo Trinity data for better transposable element (TE) annotation across whole transcriptome sequences. Output is given in .CSV format so further analyses can be conducted at ease. 
@@ -21,6 +17,10 @@ The script conducts four key steps:
 2) TEs found on the same transcript are merged if they have the same element name, orientation and their combined sequence length is less than or equal to the  corresponding reference sequence in RepBase.
 3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element corresponds to a unique genomic loci. 
 4) Merged repeats with a length less than 80bp are removed. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/71394626/93374909-4d3a6980-f84f-11ea-8f52-7378f976cd75.png" width="200" height="400" />
+</p>
 
 
 **USAGE**
