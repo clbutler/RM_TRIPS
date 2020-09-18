@@ -42,6 +42,7 @@ The output is given as a .csv file and is written in the same directory where th
 | reference_length | Sequence length of the TE as found in the reference library    |
 | merged_qrystart  | Start of TE hit found on the transcript                        |
 | merged_qryend    | End of TE hit found on transcript                              |
+| mergedfraglength | Sequence length of TE hit (bp)                                 |
 | perc_div         | % of substitutions in matching region compared to the consesus |
 | perc_del         | % of bases opposite a gap in the query sequence                |
 | perc_insert      | % of bases opposite a gap in the repeat sequence               |
