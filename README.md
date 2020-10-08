@@ -15,7 +15,7 @@ The script conducts four key steps:
 
 1) Repetitive elements not classed as TEs (e.g. microsatellites, simple repeats & sRNAs) are removed.
 2) TEs found on the same transcript are merged if they have the same element name, orientation and their combined sequence length is less than or equal to the  corresponding reference sequence in RepBase.
-3) In cases where multiple copies of the same element are found across different isoforms of the same gene, only one is retained. This ensures that each trasposable element corresponds to a unique genomic loci. 
+3) In cases where multiple copies of the same element are found across different transcript isoforms, only one is retained. This ensures that each trasposable element corresponds to a unique genomic loci. 
 4) Merged repeats with a length less than 80bp are removed. 
 
 <p align="center">
