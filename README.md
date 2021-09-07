@@ -60,6 +60,9 @@ This can be achieved by running the following bash shell script -
 awk '!/\*/' $file.out > noasterisk$file.out
 ```
 
+Below is a table which details the impact each stage of the parse script has on estimated TE abundance. In this instance _(Corydoras maculifer)_, running the the complete parse script halved the estimated TE abundance, decreasing from 9.3% as estimated by raw RepeatMasker output to 4.7%. __
+
+<img width="1003" alt="RMtrips_breakdown" src="https://user-images.githubusercontent.com/71394626/132363360-13786032-74d1-4945-ab56-ffda8202a6e7.png">
 
 
 
